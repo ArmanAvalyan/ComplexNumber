@@ -12,17 +12,17 @@ public class Complex {
     }
 
     public Complex add(Complex realPart, Complex imaginaryPart) {
-        Complex temp = new Complex();
-        temp.realPart = realPart.getRealPart() + imaginaryPart.getRealPart();
-        temp.imaginaryPart = realPart.getImaginaryPart() + imaginaryPart.getImaginaryPart();
-        return temp;
+        Complex newComplex = new Complex();
+        newComplex.realPart = realPart.getRealPart() + imaginaryPart.getRealPart();
+        newComplex.imaginaryPart = realPart.getImaginaryPart() + imaginaryPart.getImaginaryPart();
+        return newComplex;
     }
 
     public Complex subtract(Complex realPart, Complex imaginaryPart) {
-        Complex temp = new Complex();
-        temp.realPart = realPart.getRealPart() - imaginaryPart.getRealPart();
-        temp.imaginaryPart = realPart.getImaginaryPart() - imaginaryPart.getImaginaryPart();
-        return temp;
+        Complex newComplex = new Complex();
+        newComplex.realPart = realPart.getRealPart() - imaginaryPart.getRealPart();
+        newComplex.imaginaryPart = realPart.getImaginaryPart() - imaginaryPart.getImaginaryPart();
+        return newComplex;
     }
 
     public String toString() {
