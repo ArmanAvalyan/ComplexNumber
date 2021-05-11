@@ -13,6 +13,7 @@ public class Main {
         Complex complex3 = new Complex();
         complex3 = complex3.add(complex1, complex2);
         System.out.println("Sum of " + complex3.toString().toLowerCase());
+
         Complex complex4 = new Complex();
         complex4 = complex4.subtract(complex1, complex2);
         System.out.println("Difference of " + complex4.toString().toLowerCase());
