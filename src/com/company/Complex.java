@@ -25,6 +25,7 @@ public class Complex {
         return newComplex;
     }
 
+    @Override
     public String toString() {
         return "Complex number: " + getRealPart() + " + " + getImaginaryPart() + "i";
     }
